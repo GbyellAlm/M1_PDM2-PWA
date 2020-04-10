@@ -1,0 +1,286 @@
+{% extends 'base.html.twig' %}
+
+{% block div %}
+<p> Rede Globo > <b>Segunda-feira</b></p>
+<br>
+<div class="accordion container" id="accordionExample">
+    <div class="card rounded-0">
+        <div class="card-header bg-white" id="headingHoraUm">
+            <h2 class="mb-0">
+                <button class="btn btn-link text-dark p-b-9px" type="button" data-toggle="collapse" data-target="#collapseHoraUm"
+                    aria-expanded="true" aria-controls="collapseHoraUm">
+                    Hora Um
+                </button>
+            </h2>
+        </div>
+
+        <div id="collapseHoraUm" class="collapse show" aria-labelledby="headingHoraUm" data-parent="#accordionExample">
+            <div class="card-body">
+                <ul>
+                    <li><b>Horário:</b> 04:00</li>
+                    <li><b>Descrição:</b> Os assuntos mais importantes do Brasil e do mundo, com apresentação de Roberto Kovalick.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="card rounded-0">
+        <div class="card-header bg-white" id="headingBomDiaSC">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed text-dark p-b-9px" type="button" data-toggle="collapse" data-target="#collapseBomDiaSC"
+                    aria-expanded="false" aria-controls="collapseBomDiaSC">
+                    Bom Dia Santa Catarina
+                </button>
+            </h2>
+        </div>
+        <div id="collapseBomDiaSC" class="collapse" aria-labelledby="headingBomDiaSC" data-parent="#accordionExample">
+            <div class="card-body">
+                <ul>
+                    <li><b>Horário:</b> 06:00</li>
+                    <li><b>Descrição:</b> O telejornal, com apresentação de Raphael Faraco e Eveline Poncio, exibe as primeiras notícias do dia em Santa Catarina.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="card rounded-0">
+        <div class="card-header bg-white" id="headingBomDiaBR">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed text-dark p-b-9px" type="button" data-toggle="collapse" data-target="#collapseBomDiaBR"
+                    aria-expanded="false" aria-controls="collapseBomDiaBR">
+                    Bom Dia Brasil
+                </button>
+            </h2>
+        </div>
+        <div id="collapseBomDiaBR" class="collapse" aria-labelledby="headingBomDiaBR" data-parent="#accordionExample">
+            <div class="card-body">
+                <ul>
+                    <li><b>Horário:</b> 08:30</li>
+                    <li><b>Descrição:</b> 
+                        O telejornal, com apresentação de Chico Pinheiro e Ana Paula Araújo, exibe as primeiras notícias do dia no Brasil e no mundo e repercute os fatos mais relevantes.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="card rounded-0">
+        <div class="card-header bg-white" id="headingJAE">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed text-dark p-b-9px" type="button" data-toggle="collapse" data-target="#collapseJAE"
+                    aria-expanded="false" aria-controls="collapseJAE">
+                    Jornal do Almoço - Estadual
+                </button>
+            </h2>
+        </div>
+        <div id="collapseJAE" class="collapse" aria-labelledby="headingJAE" data-parent="#accordionExample">
+            <div class="card-body">
+                <ul>
+                    <li><b>Horário:</b> 12:00</li>
+                    <li><b>Descrição:</b> Jornal apresentado por Mário Motta e Laine Valgas, exibe as principais notícias do dia no estado.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="card rounded-0">
+        <div class="card-header bg-white" id="headingGESC">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed text-dark p-b-9px" type="button" data-toggle="collapse" data-target="#collapseGESC"
+                    aria-expanded="false" aria-controls="collapseGESC">
+                    Globo Esporte SC
+                </button>
+            </h2>
+        </div>
+        <div id="collapseGESC" class="collapse" aria-labelledby="headingGESC" data-parent="#accordionExample">
+            <div class="card-body">
+                <ul>
+                    <li><b>Horário:</b> 13:00</li>
+                    <li><b>Descrição:</b> Telejornal esportivo apresentado por Alisson Francisco. Fala-se sobre os times de futebol Catarinenses, Brasileiros e demais tipos de esportes nacionais e internacionais.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="card rounded-0">
+        <div class="card-header bg-white" id="headingJH">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed text-dark p-b-9px" type="button" data-toggle="collapse" data-target="#collapseJH"
+                    aria-expanded="false" aria-controls="collapseJH">
+                    Jornal Hoje
+                </button>
+            </h2>
+        </div>
+        <div id="collapseJH" class="collapse" aria-labelledby="headingJH" data-parent="#accordionExample">
+            <div class="card-body">
+                <ul>
+                    <li><b>Horário:</b> 13:25</li>
+                    <li><b>Descrição:</b> Os destaques do dia no Brasil e no mundo, com apresentação de Maria Júlia Coutinho.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="card rounded-0">
+        <div class="card-header bg-white" id="headingST">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed text-dark p-b-9px" type="button" data-toggle="collapse" data-target="#collapseST"
+                    aria-expanded="false" aria-controls="collapseST">
+                    Sessão da Tarde
+                </button>
+            </h2>
+        </div>
+        <div id="collapseST" class="collapse" aria-labelledby="headingST" data-parent="#accordionExample">
+            <div class="card-body">
+                <ul>
+                    <li><b>Horário:</b> 15:00</li>
+                    <li><b>Filme (09/04/2020):</b> O Shaolin do Sertão</li>
+                    <li><b>Sinopse:</b> Durante a década de 80, lutadores de vale-tudo passam por dificuldades devido à falta de lutas profissionais. A fim de manter a paixão pela luta, eles desafiam os valentões no interior Ceará que aceitam participar da competição criada. É assim que Aluiso Li vê a sua chance de ouro para realizar o sonho de se tornar um verdadeiro mestre das lutas como os heróis de seus filmes favoritos.</li>
+                    <br>
+                    <ul>
+                        <li><b>Título Original:</b> O Shaolin do Sertão</li>
+                        <li><b>Elenco:</b> Falcão; Edmilson Filho; Bruna Hamu; Igor Jansen; Dede Santana; Marcos Veras</li>
+                        <li><b>Direção:</b> Halder Gomes</li>
+                        <li><b>Nacionalidade:</b> Brasileira</li>
+                        <li><b>Genero:</b> Comédia</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="card rounded-0">
+        <div class="card-header bg-white" id="headingNM">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed text-dark p-b-9px" type="button" data-toggle="collapse" data-target="#collapseNM"
+                    aria-expanded="false" aria-controls="collapseNM">
+                    Novo Mundo
+                </button>
+            </h2>
+        </div>
+        <div id="collapseNM" class="collapse" aria-labelledby="headingNM" data-parent="#accordionExample">
+            <div class="card-body">
+                <ul>
+                    <li><b>Horário:</b> 18:19</li>
+                    <li><b>Descrição:</b> 
+                        Escrita por Thereza Falcão e Alessandro Marson, com direção artística de Vinicius Coimbra, a novela retrata a transformação do Brasil com a chegada da família real portuguesa. Na trama, o destino une Anna, uma professora de português de origem europeia, e Joaquim, um ator de origem brasileira, numa mesma embarcação, em 1817, e um amor improvável nasce em alto mar. Os dois vêm ao país por causa da união da futura imperatriz do Brasil com Dom Pedro.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="card rounded-0">
+        <div class="card-header bg-white" id="headingNSCN">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed text-dark p-b-9px" type="button" data-toggle="collapse" data-target="#collapseNSCN"
+                    aria-expanded="false" aria-controls="collapseNSCN">
+                    NSC Notícias
+                </button>
+            </h2>
+        </div>
+        <div id="collapseNSCN" class="collapse" aria-labelledby="headingNSCN" data-parent="#accordionExample">
+            <div class="card-body">
+                <ul>
+                    <li><b>Horário:</b> 19:03</li>
+                    <li><b>Descrição:</b> As principais notícias do estado, com apresentação de Fabian Londero.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="card rounded-0">
+        <div class="card-header bg-white" id="headingTDMS">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed text-dark p-b-9px" type="button" data-toggle="collapse" data-target="#collapseTDMS"
+                    aria-expanded="false" aria-controls="collapseTDMS">
+                    Totalmente Demais
+                </button>
+            </h2>
+        </div>
+        <div id="collapseTDMS" class="collapse" aria-labelledby="headingTDMS" data-parent="#accordionExample">
+            <div class="card-body">
+                <ul>
+                    <li><b>Horário:</b> 19:33</li>
+                    <li><b>Descrição:</b> 
+                        Em um conto de fadas moderno, a novela conta a história de Eliza, uma vendedora de flores que tem a vida transformada após conhecer Arthur, dono de uma agência de modelos. Escrita por Rosane Svartman e Paulo Halm, com direção artística de Luiz Henrique Rios.
+                        
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="card rounded-0">
+        <div class="card-header bg-white" id="headingJN">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed text-dark p-b-9px" type="button" data-toggle="collapse" data-target="#collapseJN"
+                    aria-expanded="false" aria-controls="collapseJN">
+                    Jornal Nacional
+                </button>
+            </h2>
+        </div>
+        <div id="collapseJN" class="collapse" aria-labelledby="headingJN" data-parent="#accordionExample">
+            <div class="card-body">
+                <ul>
+                    <li><b>Horário:</b> 20:30</li>
+                    <li><b>Descrição:</b> 
+                        As principais notícias do Brasil e do mundo, com apresentação de William Bonner e Renata Vasconcellos.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="card rounded-0">
+        <div class="card-header bg-white" id="headingFE">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed text-dark p-b-9px" type="button" data-toggle="collapse" data-target="#collapseFE"
+                    aria-expanded="false" aria-controls="collapseFE">
+                    Fina Estampa
+                </button>
+            </h2>
+        </div>
+        <div id="collapseFE" class="collapse" aria-labelledby="headingFE" data-parent="#accordionExample">
+            <div class="card-body">
+                <ul>
+                    <li><b>Horário:</b> 20:30</li>
+                    <li><b>Descrição:</b> Escrita por Aguinaldo Silva e com direção de Wolf Maya, 'Fina Estampa' conta a história de duas mulheres completamente diferentes. A viúva Griselda, mais conhecida como Pereirão, preza pelo caráter e trabalha como faz-tudo para sustentar seus três filhos. Já Tereza Cristina é uma socialite que vive de aparências e acredita ter a vida perfeita. Seus destinos se cruzam por acaso e tudo muda de figura quando Griselda ganha 30 milhões na loteria.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="card rounded-0">
+        <div class="card-header bg-white" id="headingJG">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed text-dark p-b-9px" type="button" data-toggle="collapse" data-target="#collapseJG"
+                    aria-expanded="false" aria-controls="collapseJG">
+                    Jornal da Globo
+                </button>
+            </h2>
+        </div>
+        <div id="collapseJG" class="collapse" aria-labelledby="headingJG" data-parent="#accordionExample">
+            <div class="card-body">
+                <ul>
+                    <li><b>Horário:</b> 00:12</li>
+                    <li><b>Descrição:</b> 
+                        As notícias do dia com a análise de comentaristas, espaço para a crônica e opinião.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="card rounded-0">
+        <div class="card-header bg-white" id="headingCorujão">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed text-dark p-b-9px" type="button" data-toggle="collapse" data-target="#collapseCorujão"
+                    aria-expanded="false" aria-controls="collapseCorujão">
+                    Corujão
+                </button>
+            </h2>
+        </div>
+        <div id="collapseCorujão" class="collapse" aria-labelledby="headingCorujão" data-parent="#accordionExample">
+            <div class="card-body">
+                <ul>
+                    <li><b>Horário:</b> 01:54</li>
+                    <li><b>Filme (09/04/2020):</b> Era Uma Vez No México</li>
+                    <li><b>Sinopse:</b> Mariachi é um justiceiro em busca do líder de um cartel que planeja derrubar o atual presidente do México. Porém, ele ainda precisa se preocupar com Sands, um agente da CIA corrupto que o contratou para realizar o serviço.</li>
+                    <br>
+                    <ul>
+                        <li><b>Título Original:</b> Once Upon a Time in Mexico</li>
+                        <li><b>Elenco:</b> Antonio Banderas, Salma Hayek, Johnny Depp, Eva Mendes, Willem Dafoe, Michey Rourke</li>
+                        <li><b>Direção:</b> Robert Rodriguez</li>
+                        <li><b>Nacionalidade:</b> Americana</li>
+                        <li><b>Genero:</b> Ação</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

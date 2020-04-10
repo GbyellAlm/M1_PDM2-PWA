@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block h6 %}
+<h6>Bem vindo(a) ao <u>G.L.A Open TV Channel Programming</u>!</h6>
+{% endblock %}
+
+{% block p %}
+<p>Somos o mais rápido e simples guia de programação de TVs aberta nacional! Para visualizar a programação de um canal
+    desejado, basta tocar/ clicar no link com o nome do canal no menu de navegação. Possibilitamos que você receba
+    notificações sobre quaisquer mudanças que os canais de TV tiverem em suas programações.</p>
+{% endblock %}
+
+{% block img %}
+<br>
+<br>
+<img src="{{ asset('images/index/index.jpg') }}" class="img-fluid mx-auto d-block" />
+<br>
+<br>
+<br>
+{% endblock %}
+
+{% block section %}
+<section class="subscription-details js-subscription-details is-invisible">
+    <pre><code class="js-subscription-json"></code></pre>
+</section>
+{% endblock %}
